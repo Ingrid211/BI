@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>Laboratorio1</Name>
-    <LastWriteTime>2023-09-14T02:03:31.2683579Z</LastWriteTime>
+    <LastWriteTime>2023-09-21T22:27:16.2826733Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -23,7 +23,17 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>ejercicio_tarea_flujo_datos.dtsx</Name>
-      <LastWriteTime>2023-09-14T02:03:31.2108548Z</LastWriteTime>
+      <LastWriteTime>2023-09-14T20:16:33.929989Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>03-Tarea de Expresion.dtsx</Name>
+      <LastWriteTime>2023-09-20T01:38:39.2599265Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>04-Carga ETL.dtsx</Name>
+      <LastWriteTime>2023-09-21T22:27:16.1546643Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

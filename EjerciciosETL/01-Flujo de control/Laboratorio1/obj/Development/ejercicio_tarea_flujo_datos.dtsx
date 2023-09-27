@@ -11,8 +11,8 @@
   DTS:LocaleID="2058"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{428EBAB7-4ECF-4B29-87CB-6F0A9431FC00}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{E3DAF822-E876-42BC-9252-64B43488DCEE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -971,13 +971,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Tarea Ejecutar SQL"
+      DTS:refId="Package\Tarea Ejecutar SQL visual"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
       DTS:DTSID="{2749B134-D442-482B-B714-9EE873B0270B}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Tarea Ejecutar SQL"
+      DTS:ObjectName="Tarea Ejecutar SQL visual"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
@@ -993,7 +993,7 @@
       DTS:refId="Package.PrecedenceConstraints[Restricción]"
       DTS:CreationName=""
       DTS:DTSID="{EE3C2019-49C0-4CFF-A087-D81C790A535A}"
-      DTS:From="Package\Tarea Ejecutar SQL"
+      DTS:From="Package\Tarea Ejecutar SQL visual"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restricción"
       DTS:To="Package\Flujo de datos" />
@@ -1011,27 +1011,39 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="176,42"
-          Id="Package\Tarea Ejecutar SQL"
-          TopLeft="317,34" />
-        <NodeLayout
           Size="148,42"
           Id="Package\Flujo de datos"
           TopLeft="337,110" />
+        <NodeLayout
+          Size="207,42"
+          Id="Package\Tarea Ejecutar SQL visual"
+          TopLeft="317,34" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="408,76">
+          TopLeft="420.5,76">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,34"
+              EndConnector="-9.5,34"
               Start="0,0"
-              End="0,26.5">
+              End="-9.5,26.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.5" />
+                    End="0,13" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13"
+                    Point2="0,17"
+                    Point3="-4,17" />
+                  <mssgle:LineSegment
+                    End="-5.5,17" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.5,17"
+                    Point2="-9.5,17"
+                    Point3="-9.5,21" />
+                  <mssgle:LineSegment
+                    End="-9.5,26.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
